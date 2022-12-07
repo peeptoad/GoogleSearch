@@ -2,11 +2,62 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="styles/advanced.css">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/links.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+        
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="google">
+            <span style="color:blue ;">G</span>
+            <span style="color:red ;">o</span>
+            <span style="color:yellow;">o</span>
+            <span style="color:blue ;">g</span>
+            <span style="color:green ;">l</span>
+            <span style="color:red ;">e</span>
+        </div>
+ 
+        <div class="links"> 
+            <a href="index.html">Home</a>
+            <span id="apps" class="material-symbols-rounded">
+                apps
+            </span>
+            <img class="icon" src="photos/icon.jpg" alt="">
+        </div>
+
+        <h3 class="advanced">Advanced Search</h3>
+        <hr>
+       
+        <div class="left-div">
+            <h3 class="h3">Find pages with...</h3>
+             <span class="span">all these words:</span>
+             <span class="span">this exact words or phrase:</span>
+             <span class="span">any of these words:</span>
+             <span class="span">none of these words:</span>
+             <span class="span">numbers ranging from:</span>
+        </div>
+        
+            <form action="https://www.google.com/search">
+            <div class="input">
+                <input class="input2" type="text" name="as_q">
+                <input class="input2" type="text" name="as_epq">
+                <input class="input2" type="text" name="as_oq">
+                <input class="input2" type="text" name="as_eq">
+            </div>
+            <div class="input3">
+                <input class="input4" type="text" name="as_nlo">
+                <p class="" > to </p>
+                <input class="input4" type="text" name="as_nhi">
+            </div>
+                
+                <input id="btn" type="submit" value="Advanced Search">
+                <hr class="hr2">
+            </form>
+        
+
     </body>
 </html>
